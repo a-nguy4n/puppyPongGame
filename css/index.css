@@ -5,12 +5,12 @@
 
 @font-face{
     font-family: "Arvo Bold";
-    src: url("/fonts/Arvo-Bold.ttf") format("truetype");
+    src: url("fonts/Arvo-Bold.ttf") format("truetype");
 }
 
 @font-face{
     font-family: "Sniglet";
-    src: url("/fonts/Sniglet-Regular.ttf") format("truetype");;
+    src: url("fonts/Sniglet-Regular.ttf") format("truetype");;
 }
 
 body{
