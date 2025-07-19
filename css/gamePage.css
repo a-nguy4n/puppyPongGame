@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Arvo Bold";
-    src: url("/assets/fonts/Arvo-Bold.ttf") format("truetype");
+    src: url("assets/fonts/Arvo-Bold.ttf") format("truetype");
 }
 
 body{

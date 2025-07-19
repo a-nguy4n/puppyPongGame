@@ -16,5 +16,5 @@ exitButton.addEventListener("click", () => {
 // Play Button
 const playButton = document.getElementById("playButton");
 playButton.addEventListener("click", function() {
-    window.location.href = "/assets/gamePage.html";
+    window.location.href = "assets/gamePage.html";
 });
