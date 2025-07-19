@@ -14,7 +14,7 @@ Welcome to **Puppy Pong**
 ---
 
 ## 📁 Folder Structure
-
+```
 puppyPongGame/
 ├── index.html
 ├── css/
@@ -29,4 +29,6 @@ puppyPongGame/
 │   │   └── cliff.png
 │   └── gamePage.html
 └── README.md
+```
+
 
