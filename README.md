@@ -18,14 +18,15 @@ Welcome to **Puppy Pong**
 puppyPongGame/
 ├── index.html
 ├── css/
-│ ├── gamePage.css
-│ └── popUps.css
+│   ├── gamePage.css
+│   └── popUps.css
 ├── js/
-│ └── gameFunction.js
-│ └── buttons.css
+│   ├── gameFunction.js
+│   └── buttons.css
 ├── assets/
-│ └── images/
-│ ├── samoyChar.png
-│ └── cliff.png
-| └── gamePage.html
+│   ├── images/
+│   │   ├── samoyChar.png
+│   │   └── cliff.png
+│   └── gamePage.html
 └── README.md
+
