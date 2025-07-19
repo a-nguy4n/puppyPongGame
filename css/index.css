@@ -1,17 +1,17 @@
 
 @font-face{
     font-family: "Slackey";
-    src: url("/PuppyPong/assets/fonts/Slackey-Regular.ttf") format("truetype");
+    src: url("/assets/fonts/Slackey-Regular.ttf") format("truetype");
 }
 
 @font-face{
     font-family: "Arvo Bold";
-    src: url("/PuppyPong/assets/fonts/Arvo-Bold.ttf") format("truetype");
+    src: url("/assets/fonts/Arvo-Bold.ttf") format("truetype");
 }
 
 @font-face{
     font-family: "Sniglet";
-    src: url("/PuppyPong/assets/fonts/Sniglet-Regular.ttf");
+    src: url("/assets/fonts/Sniglet-Regular.ttf");
 }
 
 body{
