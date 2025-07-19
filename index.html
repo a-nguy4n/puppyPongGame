@@ -4,10 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puppy Pong Home Page</title>
+    <link rel="stylesheet" href="/PuppyPong/css/index.css">
 </head>
 <body>
+    <img src="/PuppyPong/assets/images/howTo-Paw.png" alt="About" id="pawButtonOne">
     <h1> Puppy Pong </h1>
-    <img src="/PuppyPong/assets/images/samoyRun.gif" alt="Samoyed Run GIF" id="samoyRun">
-    <button> Play! </button>
+    <div id="puppyAnimationContainer">
+        <img src="/PuppyPong/assets/images/samoyRun.gif" alt="Samoyed Run GIF" id="samoyRun">
+        <div id="movingGround">
+            <img src="/PuppyPong/assets/images/ground.png" alt="Ground" class="ground">
+            <img src="/PuppyPong/assets/images/ground.png" alt="Ground" class="ground">
+        </div>
+    </div>
+   
+    <button id="playButton"> Play! </button>
+
+    <div class="popup-About" id="popupAbout" onclick="popFunction()">
+        <div class="aboutContent">
+            <span class="aboutText">
+                <div id="aboutHeader">
+                    <h2> About </h2>
+                    <img src="/PuppyPong/assets/images/closeButton.png" alt="Exit Button" id="exitButton">
+                </div>
+        
+                <ol type="1">
+                    <li> <strong> The Puppy Falls: </strong> <br>
+                         A cute little puppy floats across your screen, bouncing around in different directions.
+                    </li> <br>
+
+                    <li> <strong> Save the Puppy: </strong><br>
+                          Use your mouse or cursor. Your goal is to be under the puppy every time it comes down. 
+                          If it lands on your cursor...score! If it hits the death zone without you there 
+                          ... game over. 
+                    </li> <br>
+
+                    <li> <strong> Score Points: </strong><br>
+                         Every successful bounce off your bar earns you a point. See how high you can go!
+                    </li> <br>
+
+                    <li> <strong> Track Time: </strong> <br>
+                         A timer will show how long you’ve kept the puppy safe. Challenge yourself or your friends 
+                         to beat your best time!
+                    </li> <br>
+                </ol>
+            </span>
+        </div>
+    </div>
+ 
+    <script src="/PuppyPong/js/buttons.js"></script>
 </body>
 </html>

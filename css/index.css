@@ -1,0 +1,160 @@
+
+@font-face{
+    font-family: "Slackey";
+    src: url("/PuppyPong/assets/fonts/Slackey-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Arvo Bold";
+    src: url("/PuppyPong/assets/fonts/Arvo-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Sniglet";
+    src: url("/PuppyPong/assets/fonts/Sniglet-Regular.ttf");
+}
+
+body{
+    background-color: #F6943F;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: "Slackey";
+    font-size: 5vw;
+    padding: 0 0 5vw 0;
+}
+
+#pawButtonOne{
+    width: 3vw;
+    align-self: flex-end;
+    margin: 1% 3% 0 0;
+}
+
+#pawButtonOne:hover{
+    transform: rotate(15deg);
+}
+
+#puppyAnimationContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#samoyRun{
+    width: 15vw;
+    z-index: 5;
+}
+
+#movingGround{
+    width: 20vw;
+    height: 2vw;
+    z-index: 1;
+    padding: 0 0 7vw 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.ground{
+    width: 100%;
+    animation: scrollGround 1.3s linear infinite;
+}
+
+@keyframes scrollGround{
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    cursor: pointer;
+
+    font-family: "Arvo Bold";
+    font-size: 2vw;
+    color: #F6943F;
+    background-color:#FCF1A6;
+    border: none;
+    border-radius: 20px;
+    padding: 1% 1%;
+    width: 10vw;
+}
+
+button:hover{
+    box-shadow: #d3c882 0px 1px 2px 0px, #d3c882 0px 2px 6px 2px;
+}
+ 
+.popup-About{
+    display: none;
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: #FCF1A6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 2vw;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.aboutText{
+    display: flex; 
+    flex-direction: column;
+}
+
+#aboutHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1vw;
+}
+
+#aboutHeader h2{
+  font-family: "Slackey";
+  font-size: 3vw;
+  margin: 0 auto;  
+  white-space: nowrap;
+}
+
+#exitButton{
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  width: 2.75vw;
+  cursor: pointer;
+}
+
+#exitButton:hover{
+    transform: rotate(10deg);
+}
+
+.aboutText ol{
+    font-family: "Sniglet";
+    padding: 1vw;
+}
+
+ol strong{
+    font-size: 1.5vw;
+}
+
+ol li{
+    font-size: 1.40vw;
+}

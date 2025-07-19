@@ -1,0 +1,64 @@
+
+@font-face{
+    font-family: "Slackey";
+    src: url("/PuppyPong/assets/fonts/Slackey-Regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Arvo Bold";
+    src: url("/PuppyPong/assets/fonts/Arvo-Bold.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Sniglet";
+    src: url("/PuppyPong/assets/fonts/Sniglet-Regular.ttf");
+}
+
+#howToPopUp{
+    background-color:#FCF1A6;
+    width: 50vw;
+    height: 45vw; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; 
+    flex-direction: column;
+    z-index: 5;
+}
+
+#howToPopUp h1{
+    font-family: "Slackey";
+    font-size: 3vw;
+    text-align: center;
+}
+
+#playInstructions{
+    font-family: "Sniglet";
+    padding: 0 3vw 2.25vw 3vw;
+}
+
+#playInstructions strong{
+    font-size: 1.35vw;
+}
+
+#playInstructions li{
+    font-size: 1.2vw;
+}
+
+#letsGo{
+    font-family: "Arvo Bold";
+    font-size: 1.3vw;
+    color: #FCF1A6;
+    background-color:#F6943F;
+    border: none;
+    border-radius: 30px;
+    padding: 2% 1%;
+    width: 10vw;
+    margin-left: 37vw;
+}
+
+#letsGo:hover{
+    background-color:#f07911;
+    padding: 2% 1%;
+}
